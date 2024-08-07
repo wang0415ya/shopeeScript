@@ -11,7 +11,7 @@ options.add_experimental_option("debuggerAddress", "127.0.0.1:9527")
 driver=webdriver.Chrome(options=options)
 
 #進入要搶的咖啡頁面
-driver.get('https://shopee.tw/product/76888890/15579643661/')
+driver.get('https://shopee.tw/POP-MART-%E6%B3%A1%E6%B3%A1%E7%91%AA%E7%89%B9-THE-MONSTERS-%E5%9D%90%E5%9D%90%E6%B4%BE%E5%B0%8D%E6%90%AA%E8%86%A0%E6%AF%9B%E7%B5%A8%E7%9B%B2%E7%9B%92-i.458623340.26905100670?sp_atk=73c58354-7332-4b58-bc6c-39dfddc901f4&xptdk=73c58354-7332-4b58-bc6c-39dfddc901f4')
 
 #最大等待時間設定為5分鐘(300秒)，等"直接購買"avaliable後點選
 def do():
